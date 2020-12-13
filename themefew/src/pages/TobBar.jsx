@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 
 
@@ -14,7 +15,9 @@ export default class TobBar extends Component {
                         </Col>
                         <Col lg={6}>
                             <div className="float-right">
-                                Right site
+                                <ul>
+                                    <li><Link exact to="/help">Help</Link></li>
+                                </ul>
                             </div>
                         </Col>
                     </Row>

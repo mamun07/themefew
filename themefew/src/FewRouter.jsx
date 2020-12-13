@@ -16,7 +16,7 @@ export default class FewRouter extends Component {
             <Router>
                 <TobBar/>
                 <Navbar className="navbar navbar-expand-lg few-navbar-area bg-dark">
-                    <Link className="navbar-brand" to="/">ThemeFew</Link>
+                    <Link className="navbar-brand text-white" to="/">ThemeFew</Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -28,7 +28,6 @@ export default class FewRouter extends Component {
                         </ul>
                     </div>
                 </Navbar>
-
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/about" component={About} />

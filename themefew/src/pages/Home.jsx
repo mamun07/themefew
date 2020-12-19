@@ -4,11 +4,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 export default class Home extends Component {
     render() {
         return (
-            <Container fluid>
+            <Container fluid className="few-main-home-page">
                 <Row>
-                    <Col>
-                        Home Page
-                    </Col>
+                    <Col lg={12}>Wlcome to ThemeFew home page</Col>
                 </Row>
             </Container>
         )

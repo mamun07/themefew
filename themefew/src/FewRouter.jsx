@@ -3,10 +3,13 @@ import {Navbar} from 'react-bootstrap'
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
 
 // including Pages ..... 
-import TobBar from './pages/TobBar'
+import TobBar from './component/TobBar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Help from './pages/Help'
+import Account from './pages/Account'
+
 
 
 export default class FewRouter extends Component {
@@ -32,6 +35,8 @@ export default class FewRouter extends Component {
                     <Route exact path="/" component={Home} />
                     <Route exact path="/about" component={About} />
                     <Route exact path="/contact" component={Contact} />
+                    <Route exact path="/help" component={Help} />
+                    <Route exact path="/account" component={Account} />
                 </Switch>
             </Router>
             </>

@@ -5,11 +5,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 export default class Contact extends Component {
     render() {
         return (
-            <Container fluid>
+            <Container fluid className="contact-page">
                 <Row>
-                    <Col>
-                        Contact page
-                    </Col>
+                    <Col lg={12}>Wlcome to Conatc page</Col>
                 </Row>
             </Container>
         )

@@ -5,13 +5,11 @@ export default class About extends Component {
     render() {
         return (
             <>
-                <Container fluid>
-                    <Row>
-                        <Col>
-                            About page
-                        </Col>
-                    </Row>
-                </Container>
+            <Container fluid className="about-page-area">
+                <Row>
+                    <Col lg={12}>Wlcome to About page</Col>
+                </Row>
+            </Container>
             </>
         )
     }

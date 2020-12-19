@@ -5,7 +5,7 @@ export default class Help extends Component {
     render() {
         return (
             <>
-            <Container fluid className="header-topbar">
+            <Container fluid className="Help-page-area">
                 <Row>
                     <Col lg={12}>Wlcome to Help page</Col>
                 </Row>

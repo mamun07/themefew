@@ -1,0 +1,14 @@
+.header-topbar-bg{
+    background: #ddd;
+    padding: 5px 0;
+}
+.header-topbar-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+}
+
+
+@media (max-width:450px){
+
+}

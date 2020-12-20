@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import './Topbar.css';
-import {Container, Row, Col, Navbar,Nav} from 'react-bootstrap'
+import {Container, Row, Col} from 'react-bootstrap'
 import { FaPhoneAlt, FaRegEnvelope,FaRegUserCircle,FaHandsHelping } from "react-icons/fa";
 
 import {Link} from 'react-router-dom'
@@ -18,19 +17,19 @@ export default class TopBar extends Component {
                         <Col lg={12}>
                             <div className="header-topbar-area">
                                 <div className="topbar-left-navbar">
-                                    <spna> <FaPhoneAlt/> {this.props.phone}</spna>
-                                    <spna> <FaRegEnvelope/> {this.props.mail}</spna>
+                                    <ul>
+                                        <li><FaPhoneAlt/> {this.props.phone}</li>
+                                        <li><FaRegEnvelope/> {this.props.mail}</li>
+                                    </ul>
                                 </div>
                                 <div className="topbar-center-navbar text-center">
                                     <p>{this.props.note}</p>
                                 </div>
                                 <div className="topbar-right-navbar">
-                                    <Navbar className="p-0">
-                                        <Nav className="ml-auto">
-                                            <Link className="mr-3" to="/help"><FaHandsHelping/></Link>
-                                            <Link to="/account"><FaRegUserCircle/></Link>
-                                        </Nav>
-                                    </Navbar>
+                                    <ul>
+                                        <li><Link to="/help"><FaHandsHelping/></Link></li>
+                                        <li><Link to="/account"><FaRegUserCircle/></Link></li>
+                                    </ul>
                                 </div>
                             </div>
                         </Col>

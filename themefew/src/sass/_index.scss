@@ -1,0 +1,22 @@
+/*
+Theme Name: ThemeFew
+Theme URI: https://themefew.com/
+Author: ThemeFew
+Author URI: https://themefew.com/
+Description: Theme few is react app for test.
+Version: 1.0.0
+License: GPL v2
+License URI: https://themefew.com/license
+Tags: left-sidebar, custom-menu, featured-images, post-formats
+Text Domain: themefew
+*/
+
+@import "common/_variables";
+@import "common/_mixins";
+@import "common/_general";
+@import "_topbar";
+@import "_header";
+@import "_content";
+@import "_blog";
+@import "_widget";
+@import "_footer";
